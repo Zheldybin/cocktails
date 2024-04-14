@@ -1,9 +1,9 @@
 <script setup>
-import { RouterView } from 'vue-router'
+import AppLayout from '@/components/AppLayout.vue'
 </script>
 
 <template>
-  <RouterView />
+  <AppLayout imgUrl="/scr/assets/img/bg-1.jpg" />
 </template>
 
 <style lang="scss" scoped>

@@ -1,9 +1,15 @@
 <script setup>
-import { RouterView } from 'vue-router'
+const props = defineProps({
+  imgUrl: {
+    type: String,
+    required: true,
+  }
+})
 </script>
 
 <template>
-  <RouterView />
+  <div class="root"></div>
+
 </template>
 
 <style lang="scss" scoped>

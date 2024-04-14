@@ -6,17 +6,17 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: () => import('@/views/HomeView.vue')
+      component: () => import('@/pages/HomeView.vue')
     },
     {
-      path: '/recipe',
-      name: 'recipe',
-      component: () => import('@/views/RecipeView.vue')
+      path: '/cocktail/:rid',
+      name: 'cocktail',
+      component: () => import('@/pages/CocktailView.vue')
     },
     {
       path: '/random',
       name: 'random',
-      component: () => import('@/views/RandomView.vue')
+      component: () => import('@/pages/CocktailRandomView.vue')
     }
   ]
 })
