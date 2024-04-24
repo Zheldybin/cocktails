@@ -9,13 +9,13 @@ const router = createRouter({
       component: () => import('@/pages/HomeView.vue')
     },
     {
-      path: '/cocktail/:rid',
+      path: '/cocktails/:rid',
       name: 'cocktail',
       component: () => import('@/pages/CocktailView.vue')
     },
     {
       path: '/random',
-      name: 'random',
+      name: 'cocktailRandom',
       component: () => import('@/pages/CocktailRandomView.vue')
     }
   ]
